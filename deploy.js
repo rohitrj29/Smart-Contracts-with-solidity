@@ -4,8 +4,7 @@ const Web3 = require('web3');
 const { abi, evm } = require('./compile');
 
 provider = new HDWalletProvider(
-  'tribe fence gospel battle develop adapt humble advance endorse reduce artwork rely',
-  'https://rinkeby.infura.io/v3/586132c5855642218231c8c3c2e7c642'
+  
 );
 
 const web3 = new Web3(provider);
